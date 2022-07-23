@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="adultsPerRoom" value="2 - Two"/>
+  <parameter name="password" value="feroz@4444"/>
+  <parameter name="noofRooms" value="4 - Four"/>
+  <parameter name="ChildrenPerRoom" value="2 - Two"/>
+  <parameter name="hotels" value="Hotel Cornice"/>
+  <parameter name="location" value="Melbourne"/>
+  <parameter name="checkOutdate" value="27-06-2022"/>
+  <parameter name="roomType" value="Standard"/>
+  <parameter name="username" value="Ferozkhan"/>
+  <parameter name="checkIndate" value="19-06-2022"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGsample.testnghotel">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="searchHotels" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGsample.testnghotel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

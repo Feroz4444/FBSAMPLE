@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="username" value="Ferozkhan"></parameter>
+	<parameter name="password" value="feroz@4444"></parameter>
+	<parameter name="location" value="Melbourne"></parameter>
+	<parameter name="hotels" value="Hotel Cornice"></parameter>
+	<parameter name="roomType" value="Standard"></parameter>
+	<parameter name="noofRooms" value="4 - Four"></parameter>
+	<parameter name="checkIndate" value="19-06-2022"></parameter>
+	<parameter name="checkOutdate" value="27-06-2022"></parameter>
+	<parameter name="adultsPerRoom" value="2 - Two"></parameter>
+	<parameter name="ChildrenPerRoom" value="2 - Two"></parameter>
+	<parameter name="FirstName" value="Feroz"></parameter>
+	<parameter name="LastName" value="k"></parameter>
+	<parameter name="BillingAddress" value="Adambakkam"></parameter>
+	<parameter name="CreditCardNo" value="315721325643"></parameter>
+	<parameter name="ChildrenPerRoom" value="2 - Two"></parameter>
+
+	<test name="Test">
+		<classes>
+			<class name="testNGsample.testnghotel" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
